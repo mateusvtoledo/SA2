@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pre-topo{
+    width: auto;
+    margin: auto;
+    height: 20px;
+    background-color: #00330E;
+    color:white;  
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content:center;
+}
+
+.container-grid{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    text-transform:initial;
+}
+
+.menu{
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.32px;
+    text-align: left;
+    color: #000;
+}
+.logo {
+    width: 310px;
+    height: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu-direito{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.banner{
+    height: 480px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-banner{
+
+        color: #000;
+    
+
+}
+
+.posicao-texto{
+    font-family: 'Montserrat', sans-serif;
+    justify-content:flex-end;
+}
