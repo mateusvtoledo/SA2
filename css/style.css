@@ -559,6 +559,11 @@
     background: #7F0000;
 }
 
+.barras{
+    width: 30px;
+    display: none;
+}
+
 @media only screen and (max-width: 1200px) {
     .container-grid{
     width:80%;
@@ -603,16 +608,25 @@
         font-size: 12px;
         height: 16x;
       }
+      .logo{
+        width: 100px;
+        height: 60px;
+    }
+    
       .menu a{
           font-size: 10px;
       }
-      .logo{
-          width: 100px;
-          height: 60px;
-      }
+
       .menu{
-          width: 50%;
-      }
+        width: 50%;
+        display: none;
+    }
+
+    .barras{
+        display: inline-block;
+
+}
+
       .menu-direito{
           width: 50%;
       }
