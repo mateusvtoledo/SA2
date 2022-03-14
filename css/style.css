@@ -1,40 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.pre-topo{
+.pre-topo {
     width: auto;
     margin: auto;
     height: 20px;
     background-color: #00330E;
-    color:white;  
+    color: white;
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
-.container-grid{
-    width: 100vw;
+.container-grid {
+    width: 96vw;
     height: 100px;
     display: flex;
     margin: auto;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.menu a{
-    color:black;
+.menu a {
+    color: black;
     text-decoration: none;
-    text-transform:initial;
+    text-transform: initial;
 }
 
-.menu{
-    width: 610px;
+.menu {
+    width: 500px;
     display: flex;
     justify-content: space-between;
     height: 15px;
@@ -49,14 +49,16 @@
     text-align: left;
     color: #000;
 }
+
+
 .logo {
-    width: 310px;
-    height: 90px;
+    width: 160px;
+    height: 60px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.menu-direito{
+.menu-direito {
     width: 200px;
     display: flex;
     justify-content: space-between;
@@ -65,21 +67,561 @@
 
 }
 
-.banner{
+.banner {
     height: 480px;
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 20px;
 }
 
-.texto-banner{
-
-        color: #000;
-    
+.texto-banner {
+    color: #000;
+    text-align: center;
+    height: 800px;
+    height: 70px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
 
 }
 
-.posicao-texto{
+.posicao-texto {
     font-family: 'Montserrat', sans-serif;
-    justify-content:flex-end;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    flex-direction: column;
+    color: #fff;
+}
+
+.posicao-texto h1 {
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-bottom: 40px;
+    color: #000;
+    padding-top: 150px;
+}
+
+.posicao-texto a {
+    background-color: #7f0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.71;
+    letter-spacing: 1.8px;
+    width: 200px;
+    height: 50px;
+    flex-grow: 0;
+    margin: 41px 327px 0 368px;
+    padding: 10px 44px 9px;
+}
+
+.sessao-marcas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marcas img {
+    height: 200px;
+    height: 50px;
+    padding: auto;
+    margin-top: 5px;
+}
+
+.banner-top {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.banner-top p {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.banner-top h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+    padding-top: 14px;
+}
+
+.banner-top img {
+    width: 580px;
+    height: 680px;
+}
+
+.conteudo-banner-top-direita {
+    font-family: Montserrat;
+    margin-bottom: 40px;
+}
+
+.conteudo-banner-top-direita h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+}
+
+.conteudo-top-banner-direita img {
+    width: 35px;
+    height: 6px;
+}
+
+.conteudo-top-banner-direita a {
+    color: black;
+    font-size: 12px;
+
+}
+
+.conteudo-banner-top-esquerda {
+    font-family: Montserrat;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.conteudo-banner-top-esquerda h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+}
+
+.conteudo-banner-top-esquerda p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.14px;
+}
+
+.conteudo-top-banner-esquerda img {
+    width: 35px;
+    height: 6px;
+}
+
+.conteudo-top-banner-esquerda a {
+    color: black;
+    font-size: 12px;
+
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-produtos {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #000;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.lista-produtos img {
+    width: auto;
+    height: 400px;
+    margin: 4px;
+}
+
+.lista-produtos h5 {
+    font-weight: bold;
+    height: 15px;
+    flex-grow: 0;
+    margin: 20px 0 10px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #000;
+}
+
+.lista-produtos h3 {
+    height: 40px;
+    flex-grow: 0;
+    margin: 10px 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.lista-produtos p {
+    height: 20px;
+    flex-grow: 0;
+    margin: 11px 0 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.miolo {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-banner-central {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    margin-bottom: 20px;
+}
+
+.conteudo-banner-central p {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.conteudo-banner-central h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+    padding-top: 14px;
+}
+
+.conteudo-banner-central img {
+    width: 35px;
+    height: 6px;
+}
+
+.conteudo-banner-central a {
+    color: black;
+    font-size: 12px;
+
+}
+
+.banner-miolo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-miolo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.banner-miolo p {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.banner-miolo h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+    padding-top: 14px;
+}
+
+.banner-miolo img {
+    width: 540px;
+    height: 640px;
+    margin: 20px;
+}
+
+.conteudo-banner-miolo-direita {
+    font-family: Montserrat;
+    font-size: 18px;
+    margin: 6px;
+}
+
+.conteudo-banner-miolo-direita h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+}
+
+.conteudo-banner-miolo-direita p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.14px;
+}
+
+.conteudo-banner-miolo-direita img {
+    width: 35px;
+    height: 6px;
+}
+
+.conteudo-banner-miolo-direita a {
+    color: black;
+    font-size: 12px;
+
+}
+
+
+.conteudo-banner-miolo-esquerda {
+    font-family: Montserrat;
+    font-size: 18px;
+    margin: 6px;
+}
+
+.conteudo-banner-miolo-esquerda h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+}
+
+.conteudo-banner-miolo-esquerda p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.14px;
+}
+
+.conteudo-banner-miolo-esquerda img {
+    width: 35px;
+    height: 6px;
+}
+
+.conteudo-banner-miolo-esquerda a {
+    color: black;
+    font-size: 12px;
+
+}
+
+.lista-produtos-mais-vendidos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.lista-produtos-mais-vendidos img {
+    width: auto;
+    height: 400px;
+    margin: 4px;
+}
+
+.lista-produtos-mais-vendidos h5 {
+    font-weight: bold;
+    height: 15px;
+    flex-grow: 0;
+    margin: 20px 0 10px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #000;
+}
+
+.lista-produtos-mais-vendidos h3 {
+    height: 40px;
+    flex-grow: 0;
+    margin: 10px 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.lista-produtos-mais-vendidos p {
+    height: 20px;
+    flex-grow: 0;
+    margin: 11px 0 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+
+.footer-completo {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-completo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barra-final-footer{
+    height: 60px;
+    font-size: 10px;
+    background-color: #00330E;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #00330E;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #00330E;
+}
+::-webkit-scrollbar-thumb {
+    background: #7F0000;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-grid{
+    width:80%;
+  }
+  .pre-topo {
+    font-size: smaller;
+    height: 18px;
+  }
+  .menu a{
+      font-size: 10px;
+  }
+  .logo{
+      width: 190px;
+      height: 60px;
+  }
+  .menu{
+      width: 50%;
+  }
+  .menu-direito{
+      width: 50%;
+  }
+  .sessao-marcas{
+      height: 50%;
+  }
+
+  .marcas img{
+    height: 50px;
+    width: 80px;
+  }
+  .sessao-marcas img{
+    height: 50px;
+    width: 80px;  
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container-grid{
+        width:50%;
+      }
+      .pre-topo {
+        font-size: 12px;
+        height: 16x;
+      }
+      .menu a{
+          font-size: 10px;
+      }
+      .logo{
+          width: 100px;
+          height: 60px;
+      }
+      .menu{
+          width: 50%;
+      }
+      .menu-direito{
+          width: 50%;
+      }
+    .marcas img{
+        height: 40px;
+        width: 60px;
+      }
+      .sessao-marcas img{
+        height: 40px;
+        width: 60px;  
+      }
 }
