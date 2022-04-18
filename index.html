@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Geek 10</title>
+    <link href="C:/Git/UC9/SA2/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -16,7 +17,7 @@
         Aproveite o Frete Grátis em todo o site. Parcelamos em até 10x sem juros!
     </div>
     <header>
-        <div class="container-grid">
+        <div class="container-grid posicionamento-header">
             <div class="container-grid logo">
                 <a href=""><img src="img/logo.png" alt="Logo do site"></a>
             </div>
@@ -47,7 +48,7 @@
     </div>
     <section class="sessao-marcas">
         <img src="img/seta-esquerda.svg">
-        <div class="marcas">
+        <div class="marcas container">
             <a href=""><img src="img/nintendo-logo.svg"></a>
             <a href=""><img src="img/star-wars-logo.svg"></a>
             <a href=""><img src="img/atari-logo.svg"></a>
@@ -59,16 +60,18 @@
         <img src="img/seta-direita.svg">
     </section>
     <section class="banner-top container">
-        <div class="banner-top-direita">
+        <div class="banner-top-direita container">
             <a href=""><img src="img/top-banner-direita.svg"></a>
             <div class="conteudo-top-banner-direita container">
-                <h3>Voltas às Aulas // Nova Coleção</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque felis, faucibus a ante ac,
+                <div>
+                    <h3>Voltas às Aulas // Nova Coleção</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque felis, faucibus a ante ac,
                     elementum aliquet lacus...Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <a href="">VER MAIS<img src="img/seta-ver-mais-direita.svg"></a>
+                </div>
             </div>
         </div>
-        <div class="banner-top-esquerda">
+        <div class="banner-top-esquerda container">
             <a href=""><img src="img/top-banner-esquerda.svg"></a>
             <div class="conteudo-top-banner-esquerda container">
                 <h3>Camisetas Omelete // Colab</h3>
@@ -79,47 +82,51 @@
         </div>
     </section>
 
-    <section class="news container">
-        <div class="news-produtos">
+    <section class="news">
+        <div class="news-produtos container">
             <h2>Novidades</h2>
-            <div class="lista-produtos">
-                <div>
-                    <a href=""><img src="img/produto-1.png"></a>
-                    <div class="conteudo-produto">
-                        <h5>NINTENDO</h5>
-                        <h3>Camiseta Masculina Watchmen</h3>
-                        <p>R$ 649,00</p>
-                    </div>
-                </div>
-                <div>
-                    <a href=""><img src="img/produto-2.png"></a>
-                    <div class="conteudo-produto">
-                        <h5>NINTENDO</h5>
-                        <h3>Camiseta Masculina War</h3>
-                        <p>R$ 649,00</p>
-                    </div>
-                </div>
-                <div>
-                    <a href=""><img src="img/produto-3.png"></a>
-                    <div class="conteudo-produto">
-                        <h5>ATARI</h5>
-                        <h3>Camiseta Masculina Where's Wally</h3>
-                        <p>R$ 649,00</p>
-                    </div>
-                </div>
-                <div>
-                    <a href=""><img src="img/produto-4.png"></a>
-                    <div class="conteudo-produto">
-                        <h5>LEGO</h5>
-                        <h3>Camiseta Masculina Watchmen Rorschach</h3>
-                        <p>R$ 649,00</p>
-                    </div>
-                </div>
+            <div class="setas">
+                <img class="setas direita" src="img/seta-direita.svg">
+                <img class="setas" src="img/seta-esquerda.svg">
             </div>
+             <div class="lista-produtos container">
+                    <div>
+                        <a href=""><img src="img/produto-1.png"></a>
+                        <div class="conteudo-produto container">
+                            <h5>NINTENDO</h5>
+                            <h3>Camiseta Masculina Watchmen</h3>
+                            <p>R$ 649,00</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href=""><img src="img/produto-2.png"></a>
+                        <div class="conteudo-produto container">
+                            <h5>NINTENDO</h5>
+                            <h3>Camiseta Masculina War</h3>
+                            <p>R$ 649,00</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href=""><img src="img/produto-3.png"></a>
+                        <div class="conteudo-produto container">
+                            <h5>ATARI</h5>
+                            <h3>Camiseta Masculina Where's Wally</h3>
+                            <p>R$ 649,00</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href=""><img src="img/produto-4.png"></a>
+                        <div class="conteudo-produto container">
+                            <h5>LEGO</h5>
+                            <h3>Camiseta Masculina Watchmen Rorschach</h3>
+                            <p>R$ 649,00</p>
+                        </div>
+                    </div>
+             </div>
         </div>
     </section>
-    <section class="moiolo container">
-        <div class="banner-central moiolo">
+    <section class="moiolo">
+        <div class="banner-central moiolo container">
             <a href=""><img src="img/banner central.png"></a>
             <div class="conteudo-banner-central container">
                 <h3>Clássicos da Cultura Pop // Star Wars</h3>
@@ -148,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mais-vendidos">
+            <div class="mais-vendidos container">
                 <h2>Mais Vendidos</h2>
                 <div class="lista-produtos-mais-vendidos">
                     <div>
@@ -187,32 +194,85 @@
             </div>
         </div>
     </section>
-    <section class="footer-completo container">
-        <div class="row">
-            <div class="newsletter col-md-4">
-                <h2>newsletter</h2>
+    <section class="footer-completo">
+        <div class="row container">
+            <div class="newsletter col-md-3">
+                <div class="info-news col-md-3"><h2>Newsletter</h2>
                 <p>Inscreva-se e fique sabendo com antecedência as principais novidades</p>
-                <div class="digite-email col-md-4">digite seu e-mail</div>
-                 <div class="enviar-newsletter col-md-4">Enviar</div>
+                </div>
+            </div>
+            <div class="digite-email col-md-3">digite seu e-mail
+            </div>
+            <div class="enviar-newsletter col-md-3">Enviar
             </div>
         </div>
-        <div class="footer">
-            
-            <div class="barra-final-footer">
-                <p class="col-md-6">Estrela Geek LTDA - C.N.P.J. 12.345.678/0001/09 - Rua Arandu, 205 - Brooklin - São Paulo - SP - CEP
-                    04562-030 - © 2011-2022 Geek 10 - Todos os Direitos Reservados</p>
-                <p class="col-md-4">Criado: MATEUS TOLEDO</p>
+    <div class="footer container">
+        <div class="row">
+            <div class="dados-footer col-md-3">
+                <div class="logo-footer">
+                    <img src="img/logo-footer.png">
+                </div>
+                <div class="texto-footer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in porttitor massa, et rhoncus justo. Mauris nec gravida turpis, quis pharetra dui.
+                    </p>
+                </div>
+                <div class="redes-footer">
+                    <a href="https://www.facebook.com"><img src="img/icone-facebook.png"></a>
+                    <a href="https://www.instagram.com"><img src="img/icone-instagram.png"></a>
+                </div>
+            </div>
+            <div class="informacoes col-md-3">
+                <div class="titulo-informacoes">
+                    <h4>Informações Utéis</h4>
+                </div>
+                <div class="paginas-informacoes">
+                    <a href="/sobre-nos.html">Sobre Nós</a><br>
+                    <a href="/perguntas-frequentes.html">Perguntas Frequentes</a><br>
+                    <a href="/fale-conosco.html">Fale Conosco</a>
+                </div>
+            </div>
+            <div class="politicas col-md-3">
+                <div class="titulo-politicas">
+                    <h4>Políticas de Privacidade</h4><br>
+                </div>
+                <div class="paginas-politicas">
+                    <br><a href="/sobre-nos.html">Formas de Pagamento</a><br>
+                    <a href="/perguntas-frequentes.html">Trocas e Devoluções</a><br>
+                    <a href="/fale-conosco.html">Termos e Condições de Uso</a>
+                </div>
+            </div>
+            <div class="atendimento col-md-3">
+                <div class="titulo-atendimento">
+                    <h4>Central de Atendimento ao Cliente</h4>
+                </div>
+                <div class="texto-atendimento">
+                    <p>
+                    Fale conosco pela nossa Central de Atendimento ao Cliente por telefone, chat ou e-mail.
+                    </p>
+                </div>
+                <div class="dados-atendimento">
+                    <p><img src="img/icone-relogio.png"> Segunda - Sexta: 10:00 - 18:00</p>
+                    <p><img src="img/icone-telefone.png"> <a href="tel:01199999999"> (11) 99999-999</a><br></p>
+                    <p><img src="img/icone-email.png"> <a href="mailto:sac@geek10.com.br">sac@geek10.com.br</a></p>        
+                </div>
             </div>
         </div>
+    </div>
+    <div class="barra-final-footer container">
+        <p class="dados-empresa">Estrela Geek LTDA - CNPJ 12.345.678/0001/09 - Rua Arandu, 205 - Brooklin - CEP
+            04562-030 - São Paulo - SP</p>
+        <p class="direitos">© 2011-2022 Geek 10 - Todos os Direitos Reservados</p>
+        <p class="criado-por">Criado: Mateus Toledo</p>
+    </div>
     </section>
     <script>
         let menu = document.getElementById("menu");
         function mostrarMenu(){
             if(menu.style.display != "flex"){
-                 menu.style.display = "flex"
+                 menu.style.display = "flex";
             }
             else{
-                menu.style.display = "none"
+                menu.style.display = "none";
             }
         }
     </script>    
