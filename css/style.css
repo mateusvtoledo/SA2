@@ -277,15 +277,14 @@
 
 .lista-produtos {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .lista-produtos img {
-    width: auto;
-    height: 350px;
-    margin: 4px;
+    width: 275px;
+    height: 400px;
 }
 
 .lista-produtos h5 {
@@ -304,9 +303,9 @@
     color: #000;
 }
 
-.lista-produtos>div {
+/*.lista-produtos>div {
     width: 25%;
-}
+}*/
 
 .lista-produtos h3 {
     height: 40px;
@@ -343,6 +342,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner-central img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 500px;
 }
 
 .conteudo-banner-central {
@@ -589,6 +596,8 @@
 }
 
 .info-news {
+    justify-items: center;
+    justify-content: center;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: normal;
@@ -601,11 +610,10 @@
 }
 
 .caixa-email {
+    justify-items: center;
+    justify-content: center;
     width: 360px;
     height: 40px;
-    flex-grow: 0;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #fff;
     font-family: Montserrat;
     font-size: 12px;
     font-weight: normal;
@@ -613,17 +621,16 @@
     font-style: normal;
     letter-spacing: normal;
     text-align: center;
-    color: rgba(0, 0, 0, 0.6);
 }
 
 .botao-enviar {
+    justify-items: center;
+    justify-content: center;
     width: 200px;
-    height: 50px;
+    height: 40px;
     flex-grow: 0;
     margin: 8 8 8 8px;
     padding: 6px 6px 6px 6px;
-    margin-top: 6px;
-    background-color: rgba(0, 0, 0, 0.85);
     font-family: Montserrat;
     font-size: 16px;
     font-weight: bold;
@@ -631,7 +638,7 @@
     font-style: normal;
     line-height: 0.75;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #fff;
 }
 
@@ -728,8 +735,9 @@
 
 .barra-final-footer {
     display: flex;
-    margin-top: 20px;
-    height: 60px;
+    margin-top: 10px;
+    height: 30px;
+    width: 1200px;
     font-size: 10px;
     background-color: #00330E;
     color: white;
@@ -741,18 +749,19 @@
 
 .dados-empresa {
     display: flex;
-    font-size: 12px;
+    font-size: 9px;
     align-items: center;
+    margin-left: 4px;
 }
 
 .direitos {
     display: flex;
-    font-size: 12px;
+    font-size: 9px;
     align-items: flex-start;
 }
 
 .criado-por {
-    font-size: 12px;
+    font-size: 9px;
     text-transform: capitalize;
 }
 

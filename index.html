@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <section class="sessao-marcas">
+    <section class="sessao-marcas container">
         <img src="img/seta-esquerda.svg">
         <div class="marcas container">
             <a href=""><img src="img/nintendo-logo.svg"></a>
@@ -60,7 +60,7 @@
         <img src="img/seta-direita.svg">
     </section>
     <section class="banner-top container">
-        <div class="banner-top-direita container">
+        <div class="banner-top-direita">
             <a href=""><img src="img/top-banner-direita.svg"></a>
             <div class="conteudo-top-banner-direita container">
                 <div>
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="banner-top-esquerda container">
+        <div class="banner-top-esquerda">
             <a href=""><img src="img/top-banner-esquerda.svg"></a>
             <div class="conteudo-top-banner-esquerda container">
                 <h3>Camisetas Omelete // Colab</h3>
@@ -81,54 +81,55 @@
             </div>
         </div>
     </section>
-
-    <section class="news">
-        <div class="news-produtos container">
+    <section class="news container">
+        <div class="news-produtos">
             <h2>Novidades</h2>
             <div class="setas">
                 <img class="setas direita" src="img/seta-direita.svg">
                 <img class="setas" src="img/seta-esquerda.svg">
             </div>
-            <div class="lista-produtos container">
-                <div>
-                    <a href=""><img src="img/produto-1.png"></a>
-                    <div class="conteudo-produto container">
-                        <h5>NINTENDO</h5>
-                        <h3>Camiseta Masculina Watchmen</h3>
-                        <p>R$ 649,00</p>
+            <div class="lista-produtos">
+                <div class="row">
+                    <div class="produto-1 col-sm-3">
+                        <a href=""><img src="img/produto-1.png"></a>
+                        <div class="conteudo-produto">
+                            <h5>NINTENDO</h5>
+                            <h3>Camiseta Masculina Watchmen</h3>
+                            <p>R$ 649,00</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <a href=""><img src="img/produto-2.png"></a>
-                    <div class="conteudo-produto container">
-                        <h5>NINTENDO</h5>
-                        <h3>Camiseta Masculina War</h3>
-                        <p>R$ 649,00</p>
+                    <div class="produto-2 col-md-3">
+                        <a href=""><img src="img/produto-2.png"></a>
+                        <div class="conteudo-produto">
+                            <h5>NINTENDO</h5>
+                            <h3>Camiseta Masculina War</h3>
+                            <p>R$ 649,00</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <a href=""><img src="img/produto-3.png"></a>
-                    <div class="conteudo-produto container">
-                        <h5>ATARI</h5>
-                        <h3>Camiseta Masculina Where's Wally</h3>
-                        <p>R$ 649,00</p>
+                    <div class="produto-3 col-md-3">
+                        <a href=""><img src="img/produto-3.png"></a>
+                        <div class="conteudo-produto">
+                            <h5>ATARI</h5>
+                            <h3>Camiseta Masculina Where's Wally</h3>
+                            <p>R$ 649,00</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <a href=""><img src="img/produto-4.png"></a>
-                    <div class="conteudo-produto container">
-                        <h5>LEGO</h5>
-                        <h3>Camiseta Masculina Watchmen Rorschach</h3>
-                        <p>R$ 649,00</p>
+                    <div class="produto-4 col-sm-3">
+                        <a href=""><img src="img/produto-4.png"></a>
+                        <div class="conteudo-produto">
+                            <h5>LEGO</h5>
+                            <h3>Camiseta Masculina Watchmen Rorschach</h3>
+                            <p>R$ 649,00</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="moiolo">
-        <div class="banner-central moiolo container">
+    <section class="moiolo container">
+        <div class="banner-central moiolo">
             <a href=""><img src="img/banner central.png"></a>
-            <div class="conteudo-banner-central container">
+            <div class="conteudo-banner-central">
                 <h3>Clássicos da Cultura Pop // Star Wars</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque felis, faucibus a ante ac,
                     elementum aliquet lacus...Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -155,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mais-vendidos container">
+            <div class="mais-vendidos">
                 <h2>Mais Vendidos</h2>
                 <div class="lista-produtos-mais-vendidos">
                     <div>
@@ -194,8 +195,8 @@
             </div>
         </div>
     </section>
-    <section class="footer-completo">
-        <div class="newsletter container">
+    <section class="footer-completo container">
+        <div class="newsletter">
             <div class="row">
                 <div class="info-news-title col-sm-3">
                     <div>
@@ -209,20 +210,18 @@
                 </div>
                 <div class="caixa-email col-md-3">
                     <div>
-                        <h4>digite seu e-mail</h4>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
                     </div>
                 </div>
                 <div class="botao-enviar col-sm-3">
                     <div>
-                        <h4>Enviar</h4><br>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
                     </div>
                 </div>
             </div>
         </div>
-        
-
-        <div class="footer container">
-            <div class="row">
+        <div class="footer">
+            <div class="row ">
                 <div class="dados-footer col-md-3">
                     <div class="logo-footer">
                         <img src="img/logo-footer.png">
@@ -274,11 +273,26 @@
                 </div>
             </div>
         </div>
-        <div class="barra-final-footer container">
-            <p class="dados-empresa">Estrela Geek LTDA - CNPJ 12.345.678/0001/09 - Rua Arandu, 205 - Brooklin - CEP
-                04562-030 - São Paulo - SP</p>
-            <p class="direitos">© 2011-2022 Geek 10 - Todos os Direitos Reservados</p>
-            <p class="criado-por">Criado: Mateus Toledo</p>
+
+        <div class="barra-final-footer">
+            <div class="row">
+                <div class="dados-empresa col-md-6">
+                    <div>
+                        <p>Estrela Geek LTDA - CNPJ 12.345.678/0001/09 - Rua Arandu, 205 - Brooklin - CEP
+                            04562-030 - São Paulo - SP</p>
+                    </div>
+                </div>
+                <div class="direitos col-md-3">
+                    <div>
+                        <p>© 2011-2022 Geek 10 - Todos os Direitos Reservados</p>
+                    </div>
+                </div>
+                <div class="criado-por col-md-2">
+                    <div>
+                        <p>Criado: Mateus Toledo</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script>
