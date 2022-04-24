@@ -241,14 +241,14 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top:50%;
+    top: 50%;
     width: 100%;
     height: 20px;
     margin-right: 10px;
 
 }
 
-.setas img{
+.setas img {
     width: 20px;
     height: 20px;
     position: absolute;
@@ -304,7 +304,7 @@
     color: #000;
 }
 
-.lista-produtos > div{
+.lista-produtos>div {
     width: 25%;
 }
 
@@ -554,17 +554,17 @@
     color: #000;
 }
 
-.footer{
-  width: 1200px;
-  height: auto;
-  margin: 20px 0 0;
-  padding: 10px 10px 10px;
-  background-color: rgba(0, 0, 0, 0.85);
-  color:#fff
+.footer {
+    width: 1200px;
+    height: auto;
+    margin: 20px 0 0;
+    padding: 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff
 }
 
 
-.footer-completo{
+.footer-completo {
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -572,7 +572,7 @@
     flex-direction: column;
 }
 
-.dados.footer p{
+.dados.footer p {
     flex-grow: 0;
     margin: 19px 0 36px 17px;
     font-family: Montserrat;
@@ -586,11 +586,11 @@
     color: #fff;
 }
 
-.logo-footer img{
+.logo-footer img {
     width: 80%;
 }
 
-.titulo-informacoes h4{
+.titulo-informacoes h4 {
     width: 160px;
     height: 70px;
     flex-grow: 0;
@@ -608,13 +608,13 @@
     text-transform: uppercase;
 }
 
-.paginas-informacoes a{
+.paginas-informacoes a {
     text-decoration: none;
-    color:lightgray;
+    color: lightgray;
 
 }
 
-.titulo-politicas h4{
+.titulo-politicas h4 {
     width: 208px;
     height: 23px;
     flex-grow: 0;
@@ -632,12 +632,12 @@
     text-transform: uppercase;
 }
 
-.paginas-politicas a{
+.paginas-politicas a {
     text-decoration: none;
-    color:lightgray;
+    color: lightgray;
 }
 
-.titulo-atendimento h4{
+.titulo-atendimento h4 {
     width: 349px;
     height: 53px;
     flex-grow: 0;
@@ -657,32 +657,32 @@
     text-transform: uppercase;
 }
 
-.dados-atendimento a{
+.dados-atendimento a {
     text-decoration: none;
-    color:lightgray;
+    color: lightgray;
 }
 
-.footer-completo{
+.footer-completo {
     display: flex;
-    align-items:center;
+    align-items: center;
     text-align: center;
 }
 
-.newsletter{
+/*.newsletter {
 
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
-.info-news{
-    
-    align-items:center;
+.info-news {
+
+    align-items: center;
     text-align: center;
 }
 
-.newsletter h2{
-    
+.newsletter h2 {
+
     width: 318px;
     height: 36px;
     flex-grow: 0;
@@ -699,8 +699,8 @@
     align-items: center;
 }
 
-.newsletter p{
-    
+.newsletter p {
+
     width: 327px;
     height: 53px;
     flex-grow: 0;
@@ -715,10 +715,10 @@
     text-align: center;
     color: #00330e;
     align-items: center;
-  }
+}
 
-.digite-email{
-    
+.digite-email {
+
     align-items: center;
     width: 300px;
     height: 50px;
@@ -736,11 +736,11 @@
     letter-spacing: normal;
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
-  }
+}
 
 
-.info-news p{
-    
+.info-news p {
+
     align-items: center;
     width: 327px;
     height: 53px;
@@ -756,27 +756,94 @@
     text-align: center;
     color: #00330e;
 }
-.enviar-newsletter{
-    
-    align-items: center;
-        width: 140px;
-        height: 50px;
-        flex-grow: 0;
-        margin: 0 0 0 361px;
-        padding: 19px 44px 19px 43px;
-        background-color: rgba(0, 0, 0, 0.85);
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 0.75;
-        letter-spacing: normal;
-        text-align: center;
-        color: #fff;
-    }
 
-.barra-final-footer{
+.enviar-newsletter {
+
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    flex-grow: 0;
+    margin: 0 0 0 361px;
+    padding: 19px 44px 19px 43px;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}*/
+
+.footer-completo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-news-title h2 {
+    width: 318px;
+    height: 36px;
+    flex-grow: 0;
+    margin: 17px 30px 0 0;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.info-news {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.66;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #00330e;
+}
+
+.caixa-email {
+    width: 260px;
+    height: 40px;
+    flex-grow: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.botao-enviar {
+    width: 120px;
+    height: 50px;
+    flex-grow: 0;
+    margin: 8 8 8 8px;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.barra-final-footer {
     display: flex;
     margin-top: 20px;
     height: 60px;
@@ -789,19 +856,19 @@
     justify-content: center;
 }
 
-.dados-empresa{
+.dados-empresa {
     display: flex;
     font-size: 12px;
     align-items: center;
 }
 
-.direitos{
+.direitos {
     display: flex;
     font-size: 12px;
-    align-items:flex-start;
+    align-items: flex-start;
 }
 
-.criado-por{
+.criado-por {
     font-size: 12px;
     text-transform: capitalize;
 }
@@ -809,100 +876,113 @@
 ::-webkit-scrollbar-track {
     background-color: #00330E;
 }
+
 ::-webkit-scrollbar {
     width: 6px;
     background: #00330E;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #7F0000;
 }
 
-.barras{
+.barras {
     width: 30px;
     display: none;
 
 }
 
-.posicionamento-header{
+.posicionamento-header {
     position: relative;
 }
 
 @media only screen and (max-width: 1200px) {
-    .container-grid{
-    width:80%;
-  }
-  .pre-topo {
-    font-size: smaller;
-    height: 18px;
-  }
-  .menu a{
-      font-size: 10px;
-  }
-  .logo{
-      width: 190px;
-      height: 60px;
-  }
-  .menu{
-      width: 50%;
-  }
-  .menu-direito{
-      width: 50%;
-  }
-  .sessao-marcas{
-      height: 50%;
-  }
+    .container-grid {
+        width: 80%;
+    }
 
-  .marcas img{
-    height: 50px;
-    width: 80px;
-  }
-  .sessao-marcas img{
-    height: 50px;
-    width: 80px;  
-  }
+    .pre-topo {
+        font-size: smaller;
+        height: 18px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 190px;
+        height: 60px;
+    }
+
+    .menu {
+        width: 50%;
+    }
+
+    .menu-direito {
+        width: 50%;
+    }
+
+    .sessao-marcas {
+        height: 50%;
+    }
+
+    .marcas img {
+        height: 50px;
+        width: 80px;
+    }
+
+    .sessao-marcas img {
+        height: 50px;
+        width: 80px;
+    }
 
 }
 
 @media only screen and (max-width: 768px) {
-    .container-grid{
-        width:50%;
-      }
-      .pre-topo {
+    .container-grid {
+        width: 50%;
+    }
+
+    .pre-topo {
         font-size: 12px;
         height: 16px;
-      }
-      .logo{
+    }
+
+    .logo {
         width: 100px;
         height: 60px;
     }
-    
-      .menu a{
-          font-size: 10px;
-      }
 
-      .menu{
+    .menu a {
+        font-size: 10px;
+    }
+
+    .menu {
         width: 50%;
         display: none;
         flex-direction: column;
         position: absolute;
-        top:0;
+        top: 0;
         right: 60px;
     }
 
-    .barras{
+    .barras {
         display: inline-block;
 
-}
+    }
 
-      .menu-direito{
-          width: 50%;
-      }
-    .marcas img{
+    .menu-direito {
+        width: 50%;
+    }
+
+    .marcas img {
         height: 40px;
         width: 60px;
-      }
-      .sessao-marcas img{
+    }
+
+    .sessao-marcas img {
         height: 40px;
-        width: 60px;  
-      }
+        width: 60px;
+    }
 }
