@@ -565,12 +565,76 @@
 
 
 .footer-completo {
-    padding-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: left;
     flex-direction: column;
 }
+
+
+.info-news-title h2 {
+    width: 318px;
+    height: 36px;
+    flex-grow: 0;
+    margin: 17px 30px 0 0;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.info-news {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.66;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #00330e;
+}
+
+.caixa-email {
+    width: 360px;
+    height: 40px;
+    flex-grow: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.botao-enviar {
+    width: 200px;
+    height: 50px;
+    flex-grow: 0;
+    margin: 8 8 8 8px;
+    padding: 6px 6px 6px 6px;
+    margin-top: 6px;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
 
 .dados.footer p {
     flex-grow: 0;
@@ -660,187 +724,6 @@
 .dados-atendimento a {
     text-decoration: none;
     color: lightgray;
-}
-
-.footer-completo {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-/*.newsletter {
-
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-.info-news {
-
-    align-items: center;
-    text-align: center;
-}
-
-.newsletter h2 {
-
-    width: 318px;
-    height: 36px;
-    flex-grow: 0;
-    margin: 17px 30px 0 0;
-    font-family: Montserrat;
-    font-size: 60px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.2;
-    letter-spacing: normal;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.8);
-    align-items: center;
-}
-
-.newsletter p {
-
-    width: 327px;
-    height: 53px;
-    flex-grow: 0;
-    margin: 0 0 0 30px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.66;
-    letter-spacing: 0.8px;
-    text-align: center;
-    color: #00330e;
-    align-items: center;
-}
-
-.digite-email {
-
-    align-items: center;
-    width: 300px;
-    height: 50px;
-    flex-grow: 0;
-    margin: 1px 0 2px 59px;
-    padding: 0 0 0 22px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #fff;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.86;
-    letter-spacing: normal;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.6);
-}
-
-
-.info-news p {
-
-    align-items: center;
-    width: 327px;
-    height: 53px;
-    flex-grow: 0;
-    margin: 0 0 0 30px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.66;
-    letter-spacing: 0.8px;
-    text-align: center;
-    color: #00330e;
-}
-
-.enviar-newsletter {
-
-    align-items: center;
-    width: 140px;
-    height: 50px;
-    flex-grow: 0;
-    margin: 0 0 0 361px;
-    padding: 19px 44px 19px 43px;
-    background-color: rgba(0, 0, 0, 0.85);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.75;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-}*/
-
-.footer-completo {
-    display: flex;
-    justify-content: space-between;
-}
-
-.info-news-title h2 {
-    width: 318px;
-    height: 36px;
-    flex-grow: 0;
-    margin: 17px 30px 0 0;
-    font-family: Montserrat;
-    font-size: 46px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.2;
-    letter-spacing: normal;
-    text-align: left;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.info-news {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.66;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #00330e;
-}
-
-.caixa-email {
-    width: 260px;
-    height: 40px;
-    flex-grow: 0;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #fff;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.botao-enviar {
-    width: 120px;
-    height: 50px;
-    flex-grow: 0;
-    margin: 8 8 8 8px;
-    background-color: rgba(0, 0, 0, 0.85);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.75;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
 }
 
 .barra-final-footer {
