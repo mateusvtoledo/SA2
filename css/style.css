@@ -844,6 +844,13 @@
         text-align: left;
     }
 
+    .form-pagina-login button{
+        justify-content: left;
+        font-family: Montserrat;
+        font-size: 12px;
+        background-color: #00330E;
+    }
+
 
 @media only screen and (max-width: 768px) {
     .container-grid {
