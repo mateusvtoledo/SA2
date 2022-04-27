@@ -898,5 +898,14 @@
         height: 40px;
         width: 60px;
     }
+
+    .footer {
+        width: 90vw;
+    }
+
+    .barra-final-footer {
+        width: 90vw;
+        height: auto;
+    }
 }
 
