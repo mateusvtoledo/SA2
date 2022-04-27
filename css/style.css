@@ -831,6 +831,20 @@
 
 }
 
+    .form-pagina-login {
+        display: flex;
+        justify-content: left;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+
 @media only screen and (max-width: 768px) {
     .container-grid {
         width: 50%;
