@@ -878,7 +878,7 @@
         width: 90vw;
         height: auto;
     }
-
+}
 
 @media only screen and (max-width: 768px) {
     .container-grid {
