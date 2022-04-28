@@ -709,7 +709,7 @@
 }
 
 .titulo-atendimento h4 {
-    width: 349px;
+    width: 280px;
     height: 53px;
     flex-grow: 0;
     margin: 0 2px 40px 0;
@@ -737,7 +737,7 @@
     display: flex;
     margin-top: 10px;
     height: 30px;
-    width: 1200px;
+    width: auto;
     font-size: 10px;
     background-color: #00330E;
     color: white;
@@ -801,11 +801,29 @@
     text-align: left;
 }
 
-.form-pagina-login button{
+.form-pagina-login button {
     justify-content: left;
     font-family: Montserrat;
     font-size: 12px;
     background-color: #00330E;
+    
+
+}
+
+.form-de-contato-completo {
+    display: flex;
+    justify-content: left;
+}
+
+.titulo-pagina-contato {
+    font-family: Montserrat;
+}
+
+
+
+.botao-enviar-grid button {
+    background-color: #00330E;
+}
 
 @media only screen and (max-width: 1200px) {
     .container-grid {
