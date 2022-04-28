@@ -788,6 +788,25 @@
     position: relative;
 }
 
+.form-pagina-login {
+    display: flex;
+    justify-content: left;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.form-pagina-login button{
+    justify-content: left;
+    font-family: Montserrat;
+    font-size: 12px;
+    background-color: #00330E;
+
 @media only screen and (max-width: 1200px) {
     .container-grid {
         width: 80%;
@@ -849,6 +868,15 @@
         font-family: Montserrat;
         font-size: 12px;
         background-color: #00330E;
+    }
+
+    .footer {
+        width: 90vw;
+    }
+
+    .barra-final-footer {
+        width: 90vw;
+        height: auto;
     }
 
 
