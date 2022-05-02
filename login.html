@@ -56,7 +56,7 @@
                     <input type="checkbox" class="form-check-input" id="form-politicas-aceite-login">
                     <label class="form-check-label" for="form-politicas-aceite-login">Concordo com os <a href="termos-e-condicoes.html">Termos e Condições</a></label>
                 </div>
-                <button type="submit" class="btn btn-primary btn-lg" onclick="logar()">Entrar</button>
+                <button type="submit" class="btn btn-primary btn-lg" onclick="logar(); return false">Entrar</button>
             </form>
         </div>
     </section>
@@ -158,6 +158,7 @@
 
             if(login =="teste@teste.com" && senha =="teste123") {
                 alert('Sucesso!');
+                location.href = "index.html";
             }else {
                 alert ('Usuário ou Senha inválidos');
             }
