@@ -56,7 +56,7 @@
                     <input type="checkbox" class="form-check-input" id="form-politicas-aceite-login">
                     <label class="form-check-label" for="form-politicas-aceite-login">Concordo com os <a href="termos-e-condicoes.html">Termos e Condições</a></label>
                 </div>
-                <button type="submit" class="btn btn-primary btn-lg">Entrar</button>
+                <button type="submit" class="btn btn-primary btn-lg" onclick="logar()">Entrar</button>
             </form>
         </div>
     </section>
@@ -149,6 +149,19 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <script>
+        function logar() {
+            var login = document.getElementById('form-email-login').value;
+            var senha = document.getElementById('form-email-senha').value;
+
+            if(login =="teste@teste.com" && senha =="teste123") {
+                alert('Sucesso!');
+            }else {
+                alert ('Usuário ou Senha inválidos');
+            }
+        }
     </script>
 </body>
 </html>
